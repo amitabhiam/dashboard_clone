@@ -4,6 +4,7 @@ const Header = () => {
 
     const API = "https://hub.dummyapis.com/employee?";
 
+    //using state to set valuess
     const [value, setValue] = useState([]);
 
     const fetchData = async (url) => {
