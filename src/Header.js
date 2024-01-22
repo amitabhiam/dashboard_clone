@@ -28,7 +28,7 @@ const Header = () => {
     <div>
         <div className="text-sm font-medium text-blue-900">This is Header </div>
         {value.map((item) => {
-            return <h1>{item.firstName}</h1>
+            return <div className="grid gap-4 grid-cols-3 grid-rows-3 bg-orange-300">{item.firstName}</div>
         })}
     </div>
     )
