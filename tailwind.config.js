@@ -6,7 +6,11 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary : '#BBD6D4'
+      },
+    },
   },
   plugins: [
     require('tailwindcss'),

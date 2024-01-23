@@ -3,13 +3,9 @@ import { Apps } from "@mui/icons-material";
 
 function Body () {
     return (
-        <div>
-            <div>
+        <div className="flex mt-12 h-screen bg-primary ">
+            <div className="ml-6 mt-6">
                 <Apps />
-                <img 
-                src="https://www.wordstream.com/wp-content/uploads/2022/07/small-business-website-examples-beast-code.jpg"
-                alt="homepage"
-                />
             </div>
         </div>
     )
