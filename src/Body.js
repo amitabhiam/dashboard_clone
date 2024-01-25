@@ -21,7 +21,7 @@ function Body () {
                 <Apps />
             </div>
            <div>
-            
+          
            </div>
         </div>
     )
