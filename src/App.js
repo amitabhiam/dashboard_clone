@@ -3,16 +3,27 @@ import Header from './Header';
 import Body from './Body';
 
 import TaskBox from './TaskBox';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   
   return (
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route 
+          path='/'
+          >
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
     <div >
-      <Header />
-      <Body />
+      
       <TaskBox />
     </div>
+    </>
+    
   );
 }
 
