@@ -1,13 +1,6 @@
 import React from 'react';
 
-// const TaskBox = '/images/Group 275.png';
-// const Attendance = '/images/Group 276.png';
-// const Compensation = '/images/Group 277.png';
-// const Leaves = '/images/Group 278.png';
-// const Events = '/images/Group 279.png';
-// const Employees = '/images/Group 280.png';
-// const Insurance = '/images/Group 281.png';
-// const HelpDesk = '/images/Group 282.png';
+
 
 const HRCompList = () => {
 
