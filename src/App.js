@@ -1,39 +1,17 @@
 import './App.css';
 import Header from './Header';
 import Body from './Body';
-import { Route, Router, Routes } from 'react-router';
-import TaskBox from './TaskBox';
 
+import TaskBox from './TaskBox';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
+  
   return (
     <div >
-    <Router>
-      <Routes>
-        <Route 
-          path='/'
-          element= {
-            <>
-              <Header />
-              <Body />
-            </>
-          }
-           >
-          <Route
-            path='/taskbox'
-            element={
-              <>
-                <Header />
-                <TaskBox />
-              </>
-            }
-          >
-
-          </Route>
-
-        </Route>
-      </Routes>
-    </Router>
+      <Header />
+      <Body />
+      <TaskBox />
     </div>
   );
 }
