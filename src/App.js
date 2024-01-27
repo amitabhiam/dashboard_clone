@@ -13,14 +13,27 @@ function App() {
       <Routes>
         <Route 
           path='/'
-          >
+          element={
+            <>
+              <Header />
+              <Body />
+            </>
+          }
+          />
 
-        </Route>
+        <Route
+          path='/taskbox'
+          element={
+            <>
+              <Header />
+              <TaskBox />
+            </>
+          }
+        />
       </Routes>
     </BrowserRouter>
     <div >
       
-      <TaskBox />
     </div>
     </>
     

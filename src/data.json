@@ -1,0 +1,42 @@
+   [
+    {
+    "url":  "/images/Notes.png",
+    "title": "Task Box",
+    "moduleCode": "TASK_BOX"
+},
+{
+    "url":"/images/CheckedUser.png",
+    "title": "Attendance",
+    "moduleCode": "ATTENDANCE"
+},
+{
+    "url":"/images/Cash.png",
+    "title": "Compensation",
+    "moduleCode": "COMPENSATION"
+},
+{
+    "url":"/images/Holiday.png",
+    "title": "Leaves",
+    "moduleCode": "LEAVES"
+},
+{
+    "url":"/images/Balloons.png",
+    "title": "Events",
+    "moduleCode": "EVENTS"
+},
+{
+    "url":"/images/People.png",
+    "title": "Employees",
+    "moduleCode": "EMPLOYEES"
+},
+{
+    "url":"/images/Protect.png",
+    "title": "Insurance",
+    "moduleCode": "INSURANCE"
+},
+{
+    "url":"/images/Inquiry.png",
+    "title": "Help Desk",
+    "moduleCode": "HELP_DESK"
+}
+]
