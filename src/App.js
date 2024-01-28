@@ -14,10 +14,10 @@ function App() {
         <Route 
           path='/'
           element={
-            <>
+            <div className='bg-blue-500 h-screen'>
               <Header />
               <Body />
-            </>
+            </div>
           }
           />
 
