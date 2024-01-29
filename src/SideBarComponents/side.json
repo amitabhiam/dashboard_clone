@@ -1,0 +1,27 @@
+[
+    {
+    "url":  "/images/menu.png",
+    "title": "DASH BOARD",
+    "moduleCode": "DASH_BOARD"
+},
+{
+    "url":"/images/bar.png",
+    "title": "FINANCE",
+    "moduleCode": "FINANCE"
+},
+{
+    "url":"/images/People.png",
+    "title": "EMPLOYEES",
+    "moduleCode": "EMPLOYEES"
+},
+{
+    "url":"/images/company.png",
+    "title": "COMPANY",
+    "moduleCode": "COMPANY"
+},
+{
+    "url":"/images/profile.png",
+    "title": "CANDIDATE",
+    "moduleCode": "CANDIDATE"
+}
+]
