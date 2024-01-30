@@ -7,7 +7,7 @@ import moduleList from './data.json';
 function Body () {
 
     return (
-        <div >
+        <div className="" >
            <div className="pt-[127px] w-[813px] mx-auto">
             <HRmoduleList moduleList={moduleList} />
            </div>
