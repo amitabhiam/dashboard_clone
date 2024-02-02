@@ -2,8 +2,6 @@ import React from "react";
 import HRmoduleList from "./Components/HRmoduleList";
 import moduleList from './data.json';
 
-
-
 function Body () {
 
     return (
